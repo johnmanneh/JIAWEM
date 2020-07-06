@@ -19,6 +19,9 @@ urlpatterns = [
     url(r'^$', app.views.home, name='home'),
     url(r'^contact$', app.views.contact, name='contact'),
     url(r'^about$', app.views.about, name='about'),
+    url(r'^jesus$', app.views.Jesus, name='jesus'),
+    url(r'^location', app.views.location, name='location'),
+    url(r'^ministry', app.views.ministry, name='ministry'),
     url(r'^login/$',
         django.contrib.auth.views.login,
         {

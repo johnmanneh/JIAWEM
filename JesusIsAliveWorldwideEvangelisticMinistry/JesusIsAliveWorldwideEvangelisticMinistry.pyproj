@@ -54,8 +54,12 @@
     <Folder Include="app\templates\" />
     <Folder Include="app\templates\app\" />
     <Folder Include="JesusIsAliveWorldwideEvangelisticMinistry\" />
+    <Folder Include="JesusIsAliveWorldwideEvangelisticMinistry\static\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\templates\app\ministry.html" />
+    <Content Include="app\templates\app\location.html" />
+    <Content Include="app\templates\app\Jesus.html" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
     <Content Include="app\static\app\content\bootstrap.css" />

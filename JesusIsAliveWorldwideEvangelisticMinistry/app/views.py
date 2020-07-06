@@ -44,3 +44,16 @@ def about(request):
             'year':datetime.now().year,
         }
     )
+
+def Jesus(request):
+    context = {}
+    return render(request,'app/Jesus.html',context)
+
+def location(request):
+    context = {}
+    return render(request,'app/location.html',context)
+
+def ministry(request):
+    context = {}
+    return render(request,'app/ministry.html',context)
+
